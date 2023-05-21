@@ -11,7 +11,6 @@ Font used: https://github.com/tonsky/FiraCode
 ### Windows
 - [64 bit MSI Installer](https://github.com/abhinavgunwant/scratchnotes/releases/download/v0.0.2/scratchnotes-0.0.2-x86_64.msi)
 - [Standalone exe file](https://github.com/abhinavgunwant/scratchnotes/releases/download/v0.0.2/scratchnotes.exe)
-Download the `.exe` file from the 
 
 ## Build from source
 Just execute `cargo run` to run the app. And `cargo build` to build the executable file. Make sure your have [rust](https://www.rust-lang.org/tools/install) installed.
