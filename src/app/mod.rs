@@ -23,7 +23,7 @@ impl ScratchNotesApp {
         let mut load_text: String = load_file();
 
         if load_text.is_empty() {
-            load_text = String::from("=====test=====");
+            load_text = String::from("Start typing, your notes will be auto-saved!");
         }
 
         Self {

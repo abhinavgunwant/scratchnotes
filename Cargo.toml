@@ -1,9 +1,13 @@
 [package]
 name = "scratchnotes"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2021"
+authors = ["Abhinav Gunwant"]
+description = "FromScratch clone written in rust."
+license-file = "LICENSE"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[profile.release]
+lto = true
 
 [dependencies]
 egui = "0.21.0"

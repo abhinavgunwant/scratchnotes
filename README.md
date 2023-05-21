@@ -11,3 +11,6 @@ Font used: https://github.com/tonsky/FiraCode
 ### Windows
 Download the `.exe` file from the [releases page](https://github.com/abhinavgunwant/scratchnotes/releases).
 
+## Build from source
+Just execute `cargo run` to run the app. And `cargo build` to build the executable file. Make sure your have [rust](https://www.rust-lang.org/tools/install) installed.
+
